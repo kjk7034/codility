@@ -1,0 +1,14 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/kjk7034/codility.git",
+  "author": "wise",
+  "license": "MIT",
+  "dependencies": {
+    "nodemon": "^1.19.1"
+  },
+  "scripts": {
+    "start": "nodemon index.js"
+  }
+}

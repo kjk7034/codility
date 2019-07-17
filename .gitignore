@@ -1,2 +1,5 @@
 ## 에디터
 .vscode/
+
+## node
+/node_modules/
