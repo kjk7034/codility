@@ -2,7 +2,7 @@
 
 120 minutes for 1 task
 
-## Solution
+## Solution 1 
 
 ```javascript
 function solution(A, K) {
@@ -18,3 +18,20 @@ function solution(A, K) {
 ## Result 
 
 25%
+
+## Solution 2
+
+```javascript
+function solution(A, K) {
+   let arr = new Array(A.length);
+    for(let i=0;i<A.length;i++){
+        arr[(i+K)%A.length] = A[i]
+    }
+    return arr;
+}
+```
+
+## Result 
+
+100%
+
