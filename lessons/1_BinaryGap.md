@@ -27,4 +27,4 @@ function solution(N) {
 
 ## Result 
 
-Pass
+100%
